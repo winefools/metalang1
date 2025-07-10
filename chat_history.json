@@ -1,0 +1,68 @@
+[
+  {
+    "timestamp": "2025-07-10 14:51:08",
+    "user_input": "파일목록",
+    "unix_command": "ls",
+    "result": "README.md\nREADME.txt\n__pycache__\nchat.py\ncommands\nexecutor.py\ngpt_wrapper.py\ngptmain.py\nhistory_manager.py\nmain.py\nmapping_table.py\nnatural_parser.py\nparser.py\nrequirements.txt\n"
+  },
+  {
+    "timestamp": "2025-07-10 15:03:38",
+    "user_input": "파일",
+    "unix_command": "파일",
+    "result": "❌ 명령어 실행 오류: /bin/sh: 1: 파일: not found\n"
+  },
+  {
+    "timestamp": "2025-07-10 15:03:57",
+    "user_input": "파일 목록",
+    "unix_command": "ls",
+    "result": "README.md\nREADME.txt\n__pycache__\nchat.py\nchat_history.json\ncommands\nexecutor.py\ngpt_wrapper.py\ngptmain.py\nhistory_manager.py\nmain.py\nmapping_table.py\nnatural_parser.py\nparser.py\nrequirements.txt\n"
+  },
+  {
+    "timestamp": "2025-07-10 15:04:37",
+    "user_input": "파일목록",
+    "unix_command": "ls",
+    "result": "README.md\nREADME.txt\n__pycache__\nchat.py\nchat_history.json\ncommands\nexecutor.py\ngpt_wrapper.py\ngptmain.py\nhistory_manager.py\nmain.py\nmapping_table.py\nnatural_parser.py\nparser.py\nrequirements.txt\n"
+  },
+  {
+    "timestamp": "2025-07-10 15:08:16",
+    "user_input": "파일목록",
+    "unix_command": "[T900: unknown, \"파일목록\"]",
+    "result": "{'tag': 'T900', 'action': 'unknown', 'param1': '파일목록', 'param2': None}"
+  },
+  {
+    "timestamp": "2025-07-10 15:08:18",
+    "user_input": "파일",
+    "unix_command": "[T900: unknown, \"파일\"]",
+    "result": "{'tag': 'T900', 'action': 'unknown', 'param1': '파일', 'param2': None}"
+  },
+  {
+    "timestamp": "2025-07-10 15:08:22",
+    "user_input": "시스템정보",
+    "unix_command": "[T900: unknown, \"시스템정보\"]",
+    "result": "{'tag': 'T900', 'action': 'unknown', 'param1': '시스템정보', 'param2': None}"
+  },
+  {
+    "timestamp": "2025-07-10 15:10:16",
+    "user_input": "파일 목록",
+    "unix_command": "[T700: list_files, \".\", \"\"]",
+    "result": "{'tag': 'T700', 'action': 'list_files', 'param1': '.', 'param2': ''}"
+  },
+  {
+    "timestamp": "2025-07-10 15:11:35",
+    "user_input": "시스테 정보",
+    "unix_command": "[T900: unknown, \"시스테 정보\"]",
+    "result": "{'tag': 'T900', 'action': 'unknown', 'param1': '시스테 정보', 'param2': None}"
+  },
+  {
+    "timestamp": "2025-07-10 15:11:47",
+    "user_input": "시스템 정보",
+    "unix_command": "[T100: system_info, \"\", \"\"]",
+    "result": "{'tag': 'T100', 'action': 'system_info', 'param1': '', 'param2': ''}"
+  },
+  {
+    "timestamp": "2025-07-10 15:15:23",
+    "user_input": "파일 목록",
+    "unix_command": "[T700: list_files, \".\", \"\"]",
+    "result": "{'tag': 'T700', 'action': 'list_files', 'param1': '.', 'param2': ''}"
+  }
+]
